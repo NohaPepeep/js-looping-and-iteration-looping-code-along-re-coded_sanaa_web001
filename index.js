@@ -2,11 +2,11 @@
 
 
 let n="surprise";
-let arr="";
+let arr=["Ada", "Brendan", "Ali"];
 function writeCards(array,n) {
   
   for (let i = 0; i < array.length; i++) {
-    var array[i]='Thank you, '+array[i]+', for the wonderful '+n+' gift!';
+    array[i]='Thank you, '+array[i]+', for the wonderful '+n+' gift!';
     console.log(array[i]);
     
   }
@@ -21,9 +21,9 @@ function countDown(n){
    
   }
 }
-writeCards(["Ada", "Brendan", "Ali"],"birthday");
+writeCards(arr,n);
 countDown(10);
-console.log(array[0]);
-console.log(array[1]);
-console.log(array[2]);
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
 
