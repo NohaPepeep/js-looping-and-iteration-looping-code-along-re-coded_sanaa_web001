@@ -2,14 +2,15 @@
 
 
 let n="surprise";
-let array;
+let arr="";
 function writeCards(array,n) {
+  
   for (let i = 0; i < array.length; i++) {
     var l='Thank you, '+array[i]+', for the wonderful '+n+' gift!';
     console.log(l);
-    
+    arr+=l;
   }
- return array;
+ return arr;
 }
 
 function countDown(n){
